@@ -53,7 +53,7 @@
     "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --mono-font: monaco, "Consolas", "Lucida Console", monospace;
-  --heading-font: "Bebas Neue", serif;
+  --heading-font: var(--font-family);
   --heading-color: var(--darkGrey);
   --margin: 1.5rem;
   --padding: 1rem;
