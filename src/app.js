@@ -28,7 +28,7 @@ const Gallery = props => html`
 
 const Project = props => html`
   <li class="card">
-    <header><h3 class="text-center neonYellow-text">${props.title}</h3></header>
+    <header><h3 class="text-center neonB-text">${props.title}</h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>

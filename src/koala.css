@@ -189,6 +189,15 @@ a {
   text-decoration: none;
 }
 
+a:hover:not(.button) {
+  color: var(--primary-color);
+}
+
+a:visited:not(.button) {
+  opacity: 0.75;
+}
+
+
 button {
   font-family: inherit;
 }
