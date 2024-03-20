@@ -848,6 +848,10 @@ label.warning{
   font-weight: bold;
 }
 
+.margin-center{
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 400px) {
   .hide-xs {
     display: none !important;
