@@ -1,15 +1,16 @@
-#gallery ul li:nth-child(1n) h3{
-  color: var(--lightPurple);
-}
-
-#gallery ul li:nth-child(2n) h3{
-    color: var(--lightGreen);
-  }
-
 #gallery ul li img{
     margin: 0 auto;
   }
 
 #gallery ul li p{
     margin: 10px auto;
+  }
+
+  .card{
+    background: rgba(255,255,255,0.2);
+    margin: 0;
+  }
+
+  button{
+    color: var(--bg-color);
   }

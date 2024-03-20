@@ -2,7 +2,7 @@
 
 :root {
 /** settings  */
-  --bg-color: #fff;
+  --bg-color: #232349;
   --secondary-color: var(--lightGrey);
   --primary-color: var(--lightGreen);
   --JOGwhite: #e6e7e8;
@@ -38,29 +38,34 @@
   --brown: #99897c;
   --darkBrown: #4e3629;
   --black: #222;
+  --neonPink: #f40099;
+  --neonYellow: #f5e43c;
+  --neonBlue: #00f7f7;
   --error-color: var(--red);
   --warning-color: var(--yellow);
   --success-color: var(--green);
+  --gradient: linear-gradient(135deg, var(--neonYellow), var(--neonPink), var(--neonBlue));
   --grid-maxWidth: 120rem;
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
-  --font-color: #696969;
+  --font-color: #cecbf8;
   --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
     "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --mono-font: monaco, "Consolas", "Lucida Console", monospace;
-  --heading-font: "Pacifico", serif;
+  --heading-font: "Bebas Neue", serif;
   --heading-color: var(--darkGrey);
   --margin: 1.5rem;
   --padding: 1rem;
   --border-width: 3px;
   --radius: 1.4rem;
   --mini-margin: 2px;
+  --brand-font: pacifico, sans-serif;
 }
 
 /* JOG logo */
 .JOG,.brand {
-  font-family: Monoton, sans-serif;
+  font-family: var(--brand-font);
   letter-spacing: -0.04em;
   color: var(--JOGwhite);
 }
@@ -608,7 +613,11 @@ label.warning{
 .grey { background: var(--grey) !important; }
 .lightGrey { background: var(--lightGrey) !important; }
 .darkGrey { background: var(--darkGrey) !important; }
-.black { background: var(--black)!important; }
+.black { background: var(--black) !important; }
+.neonPink {background: var(--neonPink) !important; }
+.neonYellow {background: var(--neonYellow) !important; }
+.neonBlue {background: var(--neonBlue) !important; }
+
 
 .primary-text { color: var(--primary-color) !important;}
 .secondary-text { color: var(--secondary-color) !important;}
@@ -645,6 +654,24 @@ label.warning{
 .error-text { color: var(--error-color) !important;}
 .success-text { color: var(--success-color) !important;}
 .warning-text { color: var(--warning-color) !important; }
+.neonPink-text { color: var(--neonPink) !important; }
+
+.gradient{
+  background: var(--gradient);
+}
+
+.gradient-text{
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-box-decoration-break: clone;
+  display: inline-block;
+}
 
 /* Position & alignment */
 .float-end,.float-right {
@@ -1081,5 +1108,5 @@ label.warning{
 }
 
 .glow{
-  text-shadow: 0 0 1rem currentcolor;
+  text-shadow: 0 0 6px currentcolor;
 }
