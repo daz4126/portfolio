@@ -8,7 +8,7 @@ const app = Koala()
 // components
 const Header = props => html`
 <header>
-  <h1 class="text-center lightGrey-text italic brand">Hey! 👋 I'm <b class="neonPink-text glow">Daz</b></h1>
+  <h1 class="text-center lightGrey-text italic brand padding">Hey! 👋 I'm <b class="neonPink-text glow">Daz</b></h1>
   <h2 class="display-2 margin-center gradient-text padding">I make stuff for the web ...</h2>
 
   <nav class="nav align-center">
