@@ -3,8 +3,8 @@
 :root {
 /** settings  */
   --bg-color: #232349;
-  --secondary-color: var(--lightGrey);
-  --primary-color: var(--lightGreen);
+  --secondary-color: var(--neonBlue);
+  --primary-color: var(--neonPink);
   --JOGwhite: #e6e7e8;
   --OGreen: #3D9970;
   --FMauve: #9575cd;
@@ -655,6 +655,9 @@ label.warning{
 .success-text { color: var(--success-color) !important;}
 .warning-text { color: var(--warning-color) !important; }
 .neonPink-text { color: var(--neonPink) !important; }
+.neonBlue-text { color: var(--neonBlue) !important; }
+.neonYellow-text { color: var(--neonYellow) !important; }
+
 
 .gradient{
   background: var(--gradient);
