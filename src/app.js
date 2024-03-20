@@ -9,7 +9,7 @@ const app = Koala()
 const Header = props => html`
 <header>
   <h1 class="text-center lightGrey-text italic brand">Hey! 👋 I'm <b class="neonPink-text glow">Daz</b></h1>
-  <h2 class="display-2 text-center gradient-text padding">I make stuff for the web ...</h2>
+  <h2 class="display-2 text-center gradient-text text-center">I make stuff for the web ...</h2>
 
   <nav class="nav align-center">
   <button class="neonBlue"><i class="fa-brands fa-github"></i> GitHub</button>
@@ -20,7 +20,7 @@ const Header = props => html`
 
 const Gallery = props => html`
 <main id="gallery">
-  <h2 class="display-3 gradient-text padding">Here's  some stuff I've made ...</h2>
+  <h2 class="display-3 gradient-text text-center">Here's  some stuff I've made ...</h2>
   <ul class="no-bullet grid">
     ${projects.map(project => html`<${Project} ...${project}/>`)}
   </ul>
