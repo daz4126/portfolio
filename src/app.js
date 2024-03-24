@@ -54,7 +54,7 @@ const Project = props => html`
       <p>${props.technology.map(tech => html`<span class="tag">${tech}</span>`)}</p>
     </main>
     <footer>
-      <a href="${props.link}"><i class="fa-brands fa-github"></i> View Code on GitHub</a>
+      <a href="${props.link}"><i class="fa-brands fa-github"></i> View code on GitHub</a>
     </footer>
   </li>
 `
@@ -67,7 +67,7 @@ const Project = props => html`
       <p>${props.tags.map(tag => html`<span class="tag">${tag}</span>`)}</p>
     </main>
     <footer>
-      <a href="${props.link}"><i class="fa-brands fa-amazon"></i> See on Amazon</a>
+      <a href="${props.link}">See on Amazon <i class="fa-brands fa-amazon"></i></a>
     </footer>
   </li>
 `
