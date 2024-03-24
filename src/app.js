@@ -37,7 +37,7 @@ const Books = props => html`
 
 const Project = props => html`
   <li class="card">
-    <header><h4 class="text-center glow neonYellow-text text-uppercase">${props.title}</h3></header>
+    <header><h3 class="h4 text-center glow neonYellow-text text-uppercase">${props.title}</h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>
@@ -50,7 +50,7 @@ const Project = props => html`
 `
   const Book = props => html`
   <li class="card">
-    <header><h4 class="h5 text-center glow neonYellow-text text-uppercase">${props.title}</h3></header>
+    <header><h3 class="h4 text-center glow neonYellow-text text-uppercase">${props.title}</h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>
