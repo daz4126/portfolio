@@ -5,7 +5,7 @@
 }
 
 #gallery ul li img,#books ul li img{
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
 #gallery ul li p{
@@ -35,4 +35,12 @@ h1 .hand{
 
 header h1 b{
   font-family: Monoton;
+}
+
+@media screen and (max-width: 600px) {
+  .nav .button {
+    width: 100%;
+    margin: 4px 0;
+    text-align: center;
+  }
 }
