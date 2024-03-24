@@ -13,7 +13,7 @@ const Header = props => html`
   <div class="align-center"><h2 class="display-2 margin-center gradient-text padding">Full stack developer who 💜s JavaScript</h2></div>
 
   <nav class="nav align-center">
-  <a class="neonPink button" href="https://www.linkedin.com/in/daz4126/"><i class="fa-brands fa-github"></i> GitHub</button>
+  <a class="neonPink button" href="https://www.github.com/daz4126/"><i class="fa-brands fa-github"></i> GitHub</button>
   <a class="neonBlue button" href="https://www.linkedin.com/in/daz4126/"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
   </nav>
   <p class="padding text-center bold italic">I'm currently available for work. Get in touch if you see something you like!</p>
