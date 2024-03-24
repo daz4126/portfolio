@@ -11,7 +11,7 @@ const app = Koala()
 // components
 const Header = props => html`
 <header>
-  <h1 class="text-center lightGrey-text italic brand padding">Hey! <span class="hand">👋</span> I'm <b class=${`${Math.random() < 0.33 ? "neonBlue" : Math.random() < 0.5 ? "neonPink" : "neonYellow"}-text glow`}>Daz</b></h1>
+  <h1 class="text-center white-text italic brand padding">Hey! <span class="hand">👋</span> I'm <b class=${`${Math.random() < 0.25 ? "neonBlue" : Math.random() < 0.33 ? "neonPink" : Math.random() < 0.5 ? "neonGreen" : "neonYellow"}-text glow`}>Daz</b></h1>
   <div class="align-center"><h2 class="display-2 margin-center gradient-text padding">Full stack developer who 💜s JavaScript</h2></div>
 
   <nav class="nav align-center">
@@ -38,16 +38,16 @@ const Books = props => html`
 </main>`
 
 const Skills = props => html`
-<main id="sills">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Here's some other stuff about me ...</h2></div>
-  <ul class="">
+<main id="skills">
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">A little bit about me ...</h2></div>
+  <ul class="skills">
     ${skills.map(skill => html`<li>${skill}</li>`)}
   </ul>
 </main>`
 
 const Project = props => html`
   <li class="card">
-    <header><h3 class="h4 text-center glow neonYellow-text text-uppercase">${props.title}</h3></header>
+    <header><h3 class="h2 text-center glow lightPink-text text-uppercase">${props.title}</h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>
@@ -60,7 +60,7 @@ const Project = props => html`
 `
   const Book = props => html`
   <li class="card">
-    <header><h3 class="h4 text-center glow neonYellow-text text-uppercase">${props.title}</h3></header>
+    <header><h3 class="h4 text-center glow lightPink-text text-uppercase">${props.title}</h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>
@@ -81,9 +81,9 @@ const Footer = props => html`
 // main template
 app.template(data => html`
 <${Header} />
+<${Skills} />
 <${Gallery} />
 <${Books} />
-<${Skills} />
 <${Footer} />
 `)
 // initial render

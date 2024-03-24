@@ -32,7 +32,6 @@ h1 .hand{
   display: inline-block;
 }
 
-
 header h1 b{
   font-family: Monoton;
 }
@@ -47,4 +46,13 @@ header h1 b{
 
 h2 {
   margin: -0.6em 0 0.4em;
+}
+
+.skills{
+  max-width: 600px;
+  margin: 1em auto;
+}
+
+h1,h2,h3,h4{
+  text-wrap: balance;
 }
