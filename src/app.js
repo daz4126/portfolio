@@ -29,7 +29,7 @@ const Gallery = props => html`
 
 const Books = props => html`
 <main id="books">
-  <div class="align-center"><h2 class="display-3 gradient-text padding">I've also written some books ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">I've also written some books ...</h2></div>
   <ul class="no-bullet four column grid">
     ${books.map(book => html`<${Book} ...${book}/>`)}
   </ul>
