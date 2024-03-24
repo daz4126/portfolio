@@ -21,7 +21,7 @@ const Header = props => html`
 
 const Gallery = props => html`
 <main id="gallery">
-  <div class="align-center"><h2 class="display-3 gradient-text padding">Here's some of my work ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Here's some of my work ...</h2></div>
   <ul class="no-bullet grid">
     ${projects.map(project => html`<${Project} ...${project}/>`)}
   </ul>
