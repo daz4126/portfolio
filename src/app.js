@@ -1,6 +1,8 @@
 import { Koala, html } from "./koala.js"
 import { projects } from "./projects.js"
 import { books } from "./books.js"
+import { skills } from "./skills.js"
+
 
 const app = Koala()
 // event handlers
@@ -35,6 +37,14 @@ const Books = props => html`
   </ul>
 </main>`
 
+const Skills = props => html`
+<main id="sills">
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Here's some other stuff about me ...</h2></div>
+  <ul class="">
+    ${skills.map(skill => html`<li>${skill}</li>`)}
+  </ul>
+</main>`
+
 const Project = props => html`
   <li class="card">
     <header><h3 class="h4 text-center glow neonYellow-text text-uppercase">${props.title}</h3></header>
@@ -63,7 +73,8 @@ const Project = props => html`
 `
 
 const Footer = props => html`
-<footer>
+<footer class="text-center">
+<small>This website was made with 💜 by DAZ</small>
 </footer>
 `
 
@@ -72,6 +83,7 @@ app.template(data => html`
 <${Header} />
 <${Gallery} />
 <${Books} />
+<${Skills} />
 <${Footer} />
 `)
 // initial render
