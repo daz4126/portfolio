@@ -19,14 +19,14 @@ const books = [
     link: "https://www.amazon.co.uk/Learn-Code-JavaScript-Darren-Jones-ebook/dp/B0C156NSNS/",
     tags: ["JavaScript","Coding","Beginner", "DOM", "Web Apps"]
 },
-
+/*
 {title: "6 JavaScript Projects", 
     image: new URL('/src/images/6apps.jpeg', import.meta.url), 
     description: "This is a collection of JavaScript articles focusing on modern JavaScript from ES2015 (aka ES6). I contributed a tutorial section explaining how to build a to do list in Hyperapp.", 
     link: "https://www.oreilly.com/library/view/6-javascript-projects/9781492067238/",
     tags: ["JavaScript","Hyperapp","State", "To Do list"]
 },
-    
+  */  
 ]
 
   export { books }
