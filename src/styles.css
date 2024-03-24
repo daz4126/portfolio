@@ -1,8 +1,11 @@
+:root{
+  --brand-font: "Pacifico";
+  --primary-color: var(--neonPink);
+  --secondary-color: var(--neonBlue);
+}
+
 #gallery ul li img,#books ul li img{
     margin: 0 auto;
-    width: 98%;
-    height: 180px;
-    object-fit: contain;
   }
 
 #gallery ul li p{
@@ -27,4 +30,9 @@
 h1 .hand{
   animation: spin 0.2s linear alternate infinite;
   display: inline-block;
+}
+
+
+header h1 b{
+  font-family: Monoton;
 }

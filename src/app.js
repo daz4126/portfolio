@@ -30,7 +30,7 @@ const Gallery = props => html`
 const Books = props => html`
 <main id="books">
   <div class="align-center"><h2 class="display-3 gradient-text padding">I've also written some books ...</h2></div>
-  <ul class="no-bullet two column grid">
+  <ul class="no-bullet four column grid">
     ${books.map(book => html`<${Book} ...${book}/>`)}
   </ul>
 </main>`
