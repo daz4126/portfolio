@@ -8,7 +8,7 @@ const skills = [
 
   const achievements = [
     "2 published books about JavaScript (see below)",
-    "Created my own CSS framework, that's a leaner alternative to Tailwind",
+    "Developed my own CSS framework, inspired by Bootstrap & Tailwind",
     "Created my own state management library that is a smaller and faster alternative to React",
     "Written a book about Sinatra (see below)",
     "Lots of articles published bu SitePoint",
