@@ -1,7 +1,7 @@
 import { Koala, html } from "./koala.js"
 import { projects } from "./projects.js"
 import { books } from "./books.js"
-import { skills } from "./skills.js"
+import { skills,achievements } from "./skills.js"
 
 
 const app = Koala()
@@ -39,9 +39,13 @@ const Books = props => html`
 
 const Skills = props => html`
 <main id="skills">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">A little bit about me ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">My Skillset ...</h2></div>
   <ul class="skills">
     ${skills.map(skill => html`<li>${skill}</li>`)}
+  </ul>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Some of my achievements ...</h2></div>
+  <ul class="skills">
+    ${acheivements.map(skill => html`<li>${skill}</li>`)}
   </ul>
 </main>`
 
