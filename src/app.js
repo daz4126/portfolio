@@ -39,7 +39,7 @@ const Books = props => html`
 
 const Skills = props => html`
 <main id="skills">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">My Skillset ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">My Skills ...</h2></div>
   <ul class="skills">
     ${skills.map(skill => html`<li>${skill}</li>`)}
   </ul>
