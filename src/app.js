@@ -45,7 +45,7 @@ const Skills = props => html`
   </ul>
   <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Some of my achievements ...</h2></div>
   <ul class="skills">
-    ${acheivements.map(skill => html`<li>${skill}</li>`)}
+    ${achievements.map(skill => html`<li>${skill}</li>`)}
   </ul>
 </main>`
 
