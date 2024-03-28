@@ -1,9 +1,9 @@
 const skills = [
-    "Can code in JavaScript, TypeScript, Haskell, Ruby and Python",
-    "Can write semantic HTML and CSS",
-    "Can confidently use frontend frameworks such as React, Vue and Svelte",
-    "Confident with backend frameworks such as Express, Ruby on Rails, Flask and Sinatra",
-    "Can use GraphQL and other database technologies"
+    "JavaScript, TypeScript, Haskell, Ruby and Python",
+    "Semantic HTML and CSS",
+    "Frontend frameworks such as React, Vue and Svelte",
+    "Backend frameworks such as Express, Ruby on Rails, Flask and Sinatra",
+    "GraphQL and other database technologies"
   ]
 
   const achievements = [
@@ -11,8 +11,7 @@ const skills = [
     "Developed my own CSS framework, inspired by Bootstrap & Tailwind",
     "Created my own state management library that is a smaller and faster alternative to React",
     "Written a book about Sinatra (see below)",
-    "Lots of articles published bu SitePoint",
-    "A few articles published by Scrimba"
+    "Lots of articles published online"
   ]
 
   export { skills, achievements }

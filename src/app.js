@@ -39,11 +39,11 @@ const Books = props => html`
 
 const Skills = props => html`
 <main id="skills">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">My Skills ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Here's what I can do ...</h2></div>
   <ul class="skills">
     ${skills.map(skill => html`<li>${skill}</li>`)}
   </ul>
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Some of my achievements ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">And some of my achievements ...</h2></div>
   <ul class="skills">
     ${achievements.map(skill => html`<li>${skill}</li>`)}
   </ul>
@@ -51,14 +51,14 @@ const Skills = props => html`
 
 const Project = props => html`
   <li class="card">
-    <header><h3 class="h2 no-margin text-center glow lightPink-text text-uppercase">${props.title}</h3></header>
+    <header><h3 class="h2 no-margin text-center glow lightPink-text text-uppercase"><a href="${props.link}">${props.title}</a></h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>
       <p>${props.technology.map(tech => html`<span class="tag">${tech}</span>`)}</p>
     </main>
     <footer>
-      <a href="${props.link}"><i class="fa-brands fa-github"></i> View code on GitHub</a>
+      <a href="${props.github}"><i class="fa-brands fa-github"></i> View code on GitHub</a>
     </footer>
   </li>
 `
