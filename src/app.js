@@ -95,8 +95,8 @@ app.template(data => html`
 <${Header} />
 <${Skills} />
 <${Gallery} />
-<${Books} />
 <${Articles} />
+<${Books} />
 <${Footer} />
 `)
 // initial render
