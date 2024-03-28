@@ -1,7 +1,7 @@
 import { Koala, html } from "./koala.js"
 import { projects } from "./projects.js"
 import { books } from "./books.js"
-import { skills,achievements } from "./skills.js"
+import { skills,achievements, articles } from "./skills.js"
 
 
 const app = Koala()
@@ -75,6 +75,14 @@ const Project = props => html`
     </footer>
   </li>
 `
+const Articles = props => html`
+<main id="articles">
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">My recent articles ...</h2></div>
+  <ul class="articles">
+    ${articles.map(article => html`<li><a href="${article.link}">${article.title}</a></li>`)}
+  </ul>
+</main>`
+
 
 const Footer = props => html`
 <footer class="text-center">
@@ -88,6 +96,7 @@ app.template(data => html`
 <${Skills} />
 <${Gallery} />
 <${Books} />
+<${Articles} />
 <${Footer} />
 `)
 // initial render
