@@ -25,8 +25,8 @@ const projects = [
     {title: "Dragon CSS", 
     image: new URL('/src/images/dragon.png', import.meta.url), 
     description: "A micro CSS framework based on Tailwind and Bootstrap. Adds classless styles to HTML by default and includes a simple to use, but advanced grid system for building complex layouts. Makes styling pages and components easy.", 
-    link: "https://codepen.io/daz4126/full/vYrMRwP",
-    github: "https://codepen.io/daz4126/vYrMRwP",
+    link: "hhttps://github.com/daz4126/dragon",
+    github: "https://github.com/daz4126/dragon",
     technology: ["CSS"]
     },
     {title: "Numble", 
