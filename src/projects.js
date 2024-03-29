@@ -21,6 +21,14 @@ const projects = [
     github: "https://github.com/daz4126/timex",
     technology: ["HTML","CSS","JavaScript","Git","State Management","PostgreSQL","JSON"]
     },
+    ,
+    {title: "Dragon CSS", 
+    image: new URL('/src/images/dragon.png', import.meta.url), 
+    description: "A micro CSS framework based on Tailwind and Bootstrap. Adds classless styles to HTML by default and includes a simple to use, but advanced grid system for building complex layouts. Makes styling pages and components easy.", 
+    link: "https://codepen.io/daz4126/full/vYrMRwP",
+    github: "https://codepen.io/daz4126/vYrMRwP",
+    technology: ["CSS"]
+    },
     {title: "Numble", 
     image: new URL('/src/images/numble.png', import.meta.url), 
     description: "A maths game to help you learn about multiples, based on Wordle. Try and guess a random multiple of 3 in four guesses or less to get a 'Numble'. Try to get a streak of numbles. Features the ability to share your best score.", 
@@ -34,14 +42,7 @@ const projects = [
     link: "/",
     github: false,
     technology: ["HTML","CSS","JavaScript"]
-    },
-    {title: "Dragon CSS", 
-    image: new URL('/src/images/dragon.png', import.meta.url), 
-    description: "A micro CSS framework based on Tailwind and Bootstrap. Adds classless styles to HTML by default and includes a simple to use, but advanced grid system for building complex layouts. Makes styling pages and components easy.", 
-    link: "https://codepen.io/daz4126/full/vYrMRwP",
-    github: "https://codepen.io/daz4126/vYrMRwP",
-    technology: ["CSS"]
-    },
+    }
   ]
 
   export { projects }
