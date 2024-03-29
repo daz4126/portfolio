@@ -1,7 +1,7 @@
 import { Koala, html } from "./koala.js"
 import { projects } from "./projects.js"
 import { books } from "./books.js"
-import { skills,achievements, articles } from "./skills.js"
+import { skills, articles } from "./skills.js"
 
 
 const app = Koala()
@@ -39,13 +39,9 @@ const Books = props => html`
 
 const Skills = props => html`
 <main id="skills">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Here's what I can do ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">I'm experienced in ...</h2></div>
   <ul class="skills">
     ${skills.map(skill => html`<li>${skill}</li>`)}
-  </ul>
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">And some of my achievements ...</h2></div>
-  <ul class="skills">
-    ${achievements.map(skill => html`<li>${skill}</li>`)}
   </ul>
 </main>`
 
@@ -58,7 +54,7 @@ const Project = props => html`
       <p>${props.technology.map(tech => html`<span class="tag">${tech}</span>`)}</p>
     </main>
     <footer>
-      <a href="${props.github}"><i class="fa-brands fa-github"></i> View code on GitHub</a>
+      ${props.gitbub ? html`<a href="${props.github}"><i class="fa-brands fa-github"></i> View code on GitHub</a>` : ""}
     </footer>
   </li>
 `
@@ -77,7 +73,7 @@ const Project = props => html`
 `
 const Articles = props => html`
 <main id="articles">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">My recent articles ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Some recent articles I wrote ...</h2></div>
   <ul class="articles">
     ${articles.map(article => html`<li><a href="${article.link}">${article.title}</a></li>`)}
   </ul>

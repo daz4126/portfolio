@@ -14,13 +14,6 @@ const projects = [
     github: "https://github.com/daz4126/priority",
     technology: ["HTML","CSS","JavaScript","State Management","Git",]
     },
-    {title: "Drinks Counter", 
-    image: new URL('/src/images/drinks.png', import.meta.url), 
-    description: "A web app to help track how much water you drink every day. Keeps track of when each drink was added and stores stats for the previous week.", 
-    link: "https://codepen.io/daz4126/full/vYrMRwP",
-    github: "https://codepen.io/daz4126/vYrMRwP",
-    technology: ["HTML","CSS","JavaScript","State Management"]
-    },
     {title: "TimeX", 
     image: new URL('/src/images/timex.png', import.meta.url), 
     description: "An immersive times table quiz that adapts to the users answers. Features a login and database backend, saves your best scores and average stats as well as awards and streaks.", 
@@ -35,13 +28,20 @@ const projects = [
     github: "https://github.com/daz4126/Numble",
     technology: ["HTML","CSS","JavaScript","State Management","Git","Maths"]
     },
-    {title: "Nought & Crosses", 
-    image: new URL('/src/images/tictactoe.png', import.meta.url), 
-    description: "The classic game! This is based on the React tutorial but built using my own Nanny State library. It has an undo and redo feature to let you change your move.", 
-    link: "https://codepen.io/daz4126/full/xxdYvpz",
-    github: "https://codepen.io/daz4126/xxdYvpz",
+    {title: "Cancer Communications", 
+    image: new URL('/src/images/cancercom.png', import.meta.url), 
+    description: "Designed and built the full website for a local scientific writing company.", 
+    link: "/",
+    github: false,
+    technology: ["HTML","CSS","JavaScript"]
+    },
+    {title: "Drinks Counter", 
+    image: new URL('/src/images/drinks.png', import.meta.url), 
+    description: "A web app to help track how much water you drink every day. Keeps track of when each drink was added and stores stats for the previous week.", 
+    link: "https://codepen.io/daz4126/full/vYrMRwP",
+    github: "https://codepen.io/daz4126/vYrMRwP",
     technology: ["HTML","CSS","JavaScript","State Management"]
-    }
+    },
   ]
 
   export { projects }
