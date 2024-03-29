@@ -54,7 +54,7 @@ const Project = props => html`
       <p>${props.technology.map(tech => html`<span class="tag">${tech}</span>`)}</p>
     </main>
     <footer>
-      ${props.gitbub ? html`<a href="${props.github}"><i class="fa-brands fa-github"></i> View code on GitHub</a>` : ""}
+      ${props.github ? html`<a href="${props.github}"><i class="fa-brands fa-github"></i> View code on GitHub</a>` : ""}
     </footer>
   </li>
 `
