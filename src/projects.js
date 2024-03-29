@@ -35,12 +35,12 @@ const projects = [
     github: false,
     technology: ["HTML","CSS","JavaScript"]
     },
-    {title: "Drinks Counter", 
-    image: new URL('/src/images/drinks.png', import.meta.url), 
-    description: "A web app to help track how much water you drink every day. Keeps track of when each drink was added and stores stats for the previous week.", 
+    {title: "Dragon CSS", 
+    image: new URL('/src/images/dragon.png', import.meta.url), 
+    description: "A micro CSS framework based on Tailwind and Bootstrap. Adds classless styles to HTML by default and includes a simple to use, but advanced grid system for building complex layouts. Makes styling pages and components easy.", 
     link: "https://codepen.io/daz4126/full/vYrMRwP",
     github: "https://codepen.io/daz4126/vYrMRwP",
-    technology: ["HTML","CSS","JavaScript","State Management"]
+    technology: ["CSS"]
     },
   ]
 
