@@ -1,13 +1,20 @@
 const skills = [
-    "JavaScript, TypeScript, Haskell, Ruby & Python",
-    "Semantic HTML & CSS",
+    "Ruby on Rails, Next.js Express & Sinatra",
     "React, Vue & Svelte",
-    "Express, Ruby on Rails & Sinatra",
+    "JavaScript, TypeScript, Haskell & Python",
+    "Semantic HTML & CSS",  
     "GraphQL & other database technologies",
     "Version control with Git and GitHub"
   ]
 
   const articles = [
+    { title: "Ruby Microframeworks Round-up",
+      link: https://www.sitepoint.com/ruby-microframeworks-round/
+    },
+    {
+      title: "Rails or Sinatra: The Best of Both Worlds?",
+      link: https://www.sitepoint.com/rails-or-sinatra-the-best-of-both-worlds/
+    },
     {
       title: "5 Exciting New JavaScript Features in 2024",
       link: "https://www.sitepoint.com/new-javascript-ecmascript/"
@@ -15,14 +22,6 @@ const skills = [
     {
       title: "Best Programming Language For Kids",
       link: "https://www.sitepoint.com/best-programming-language-for-kids-to-learn/"
-    },
-    {
-      title: "Useful JavaScript Math Functions and How to Use Them",
-      link: "https://www.sitepoint.com/javascript-math-functions/"
-    },
-    {
-      title: "How to Generate Random Numbers in JavaScript with Math.random()",
-      link: "https://www.sitepoint.com/generate-random-numbers-javascript/"
     },
     {
       title: "5 Ways to Make Your JavaScript More Functional",
