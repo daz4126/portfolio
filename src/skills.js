@@ -9,11 +9,11 @@ const skills = [
 
   const articles = [
     { title: "Ruby Microframeworks Round-up",
-      link: https://www.sitepoint.com/ruby-microframeworks-round/
+      link: "https://www.sitepoint.com/ruby-microframeworks-round/"
     },
     {
       title: "Rails or Sinatra: The Best of Both Worlds?",
-      link: https://www.sitepoint.com/rails-or-sinatra-the-best-of-both-worlds/
+      link: "https://www.sitepoint.com/rails-or-sinatra-the-best-of-both-worlds/"
     },
     {
       title: "5 Exciting New JavaScript Features in 2024",
