@@ -14,12 +14,12 @@ const projects = [
     github: "https://github.com/daz4126/priority",
     technology: ["HTML","CSS","JavaScript","State Management","Git",]
     },
-    {title: "TimeX", 
-    image: new URL('/src/images/timex.png', import.meta.url), 
-    description: "An immersive times table quiz that adapts to the users answers. Features a login and database backend, saves your best scores and average stats as well as awards and streaks.", 
-    link: "https://djwq27.csb.app/",
-    github: "https://github.com/daz4126/timex",
-    technology: ["HTML","CSS","JavaScript","Git","State Management","PostgreSQL","JSON"]
+    {title: "Fast Readers Club", 
+    image: new URL('/src/images/frc.png', import.meta.url), 
+    description: "A Good Reads clone built in Ruby on Rails with a database backend. Users can sign in and review books.", 
+    link: "https://jckdf5-3000.csb.app",
+    github: "https://github.com/daz4126/fast-readers-club",
+    technology: ["HTML","CSS","Ruby","Ruby on Rails","PostgreSQL"]
     },
     ,
     {title: "Dragon CSS", 
