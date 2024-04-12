@@ -12,7 +12,7 @@ const app = Koala()
 const Header = props => html`
 <header>
   <h1 class="text-center white-text italic brand padding">Hey! <span class="hand">👋</span> I'm <b class=${`${Math.random() < 0.25 ? "neonBlue" : Math.random() < 0.33 ? "neonPink" : Math.random() < 0.5 ? "neonGreen" : "neonYellow"}-text glow`}>Daz</b></h1>
-  <div class="align-center"><h2 class="display-2 text-center margin-center gradient-text padding">Full stack web developer</h2></div>
+  <div class="align-center"><h2 class="display-2 text-center margin-center gradient-text padding ted-border">Full stack web developer</h2></div>
 
   <nav class="nav align-center">
   <a class="neonPink button" href="https://www.github.com/daz4126/"><i class="fa-brands fa-github"></i> GitHub</button>
