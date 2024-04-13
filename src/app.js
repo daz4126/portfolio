@@ -47,7 +47,7 @@ const Skills = props => html`
 
 const Project = props => html`
   <li class="card">
-    <header><h3 class="h2 no-margin text-center glow lightPink-text text-uppercase"><a href="${props.link}">${props.title}</a></h3></header>
+    <header><h3 class="h2 no-margin text-center text-uppercase"><a class='white-text' href="${props.link}">${props.title}</a></h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>
