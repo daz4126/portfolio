@@ -14,7 +14,7 @@ const Header = props => html`
   <h1 class="text-center white-text italic brand padding">Hey! <span class="hand">👋</span> I'm <b class=${`${Math.random() < 0.25 ? "neonBlue" : Math.random() < 0.33 ? "neonPink" : Math.random() < 0.5 ? "neonGreen" : "neonYellow"}-text glow`}>Daz</b></h1>
   <div class="align-center"><h2 class="display-2 text-center margin-center gradient-text padding">Full stack web developer</h2></div>
 
-  <nav class="nav align-center">
+  <nav class="align-center">
   <a class="neonPink button" href="https://www.github.com/daz4126/"><i class="fa-brands fa-github"></i> GitHub</button>
   <a class="neonBlue button" href="https://www.linkedin.com/in/daz4126/"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
   </nav>
