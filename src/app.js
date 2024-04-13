@@ -82,7 +82,7 @@ const Articles = props => html`
 
 const Footer = props => html`
 <footer class="text-center">
-<small>This website was made with 💜 by DAZ</small>
+<small>Made with 💜 by DAZ</small>
 </footer>
 `
 
