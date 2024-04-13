@@ -23,7 +23,7 @@ const Header = props => html`
 
 const Gallery = props => html`
 <main id="gallery">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Here's some of my work ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text text-center padding-horizontal no-margin">Here's some of my work ...</h2></div>
   <ul class="no-bullet grid">
     ${projects.map(project => html`<${Project} ...${project}/>`)}
   </ul>
@@ -31,7 +31,7 @@ const Gallery = props => html`
 
 const Books = props => html`
 <main id="books">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">I've also written some books ...</h2></div>
+  <div class="align-center"><h2 class="display-3 text-center gradient-text padding-horizontal no-margin">I've also written some books ...</h2></div>
   <ul class="no-bullet three column grid">
     ${books.map(book => html`<${Book} ...${book}/>`)}
   </ul>
@@ -39,7 +39,7 @@ const Books = props => html`
 
 const Skills = props => html`
 <main id="skills">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">I'm experienced in ...</h2></div>
+  <div class="align-center"><h2 class="display-3 gradient-text text-center padding-horizontal no-margin">I'm experienced in ...</h2></div>
   <ul class="skills">
     ${skills.map(skill => html`<li>${skill}</li>`)}
   </ul>
@@ -73,7 +73,7 @@ const Project = props => html`
 `
 const Articles = props => html`
 <main id="articles">
-  <div class="align-center"><h2 class="display-3 gradient-text padding-horizontal no-margin">Some recent articles I wrote ...</h2></div>
+  <div class="align-center"><h2 class="display-3 text-center gradient-text padding-horizontal no-margin">Some recent articles I wrote ...</h2></div>
   <ul class="articles">
     ${articles.map(article => html`<li><a href="${article.link}">${article.title}</a></li>`)}
   </ul>
