@@ -60,7 +60,7 @@ const Project = props => html`
 `
   const Book = props => html`
   <li class="card">
-    <header><h3 class="h2 no-margin text-center glow lightPink-text text-uppercase">${props.title}</h3></header>
+    <header><h3 class="h2 no-margin text-center white-text text-uppercase">${props.title}</h3></header>
     <main>
       <img src="${props.image}" class="drop-shadow"/>
       <p>${props.description}</p>
