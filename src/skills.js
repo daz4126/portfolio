@@ -1,5 +1,5 @@
 const skills = [
-    "Ruby on Rails, Next.js Express & Sinatra",
+    "Ruby on Rails, Sinatra & Express",
     "React, Vue & Svelte",
     "JavaScript, TypeScript, Haskell & Python",
     "Semantic HTML & CSS",  

@@ -18,7 +18,7 @@ const projects = [
     image: new URL('/src/images/frc.png', import.meta.url), 
     description: "A Good Reads clone built in Ruby on Rails with a database backend. Users can sign in and review books.", 
     link: "https://jckdf5-3000.csb.app",
-    github: "https://github.com/daz4126/fast-readers-club",
+    github: "https://codesandbox.io/p/devbox/book-hub-jckdf5",
     technology: ["HTML","CSS","Ruby","Ruby on Rails","PostgreSQL"]
     },
     ,
