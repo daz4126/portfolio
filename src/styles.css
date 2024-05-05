@@ -29,7 +29,7 @@
 }
 
 h1 .hand{
-  animation: spin 0.2s linear alternate infinite;
+  animation: spin 0.2s linear alternate;
   display: inline-block;
 }
 
