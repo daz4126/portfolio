@@ -1,10 +1,10 @@
 const skills = [
     "Ruby on Rails, Sinatra & Express",
-    "React, Vue & Svelte",
     "JavaScript, TypeScript, Haskell & Python",
     "Semantic HTML & CSS",  
-    "GraphQL & other database technologies",
-    "Version control with Git and GitHub"
+    "React, Vue & Svelte",
+    "MySQL & other database technologies",
+    "Version control with Git, GitHub and BitBucket"
   ]
 
   const articles = [
