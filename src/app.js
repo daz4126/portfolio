@@ -18,7 +18,7 @@ const Header = props => html`
   <a class="neonPink button" href="https://www.github.com/daz4126/"><i class="fa-brands fa-github"></i> GitHub</button>
   <a class="neonBlue button" href="https://www.linkedin.com/in/daz4126/"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
   </nav>
-  <p class="padding text-center bold italic">I'm currently available for work. Get in touch if you see something you like!</p>
+  <p class="padding text-center bold italic">I'm currently working as a Rails developer at <a href="https://yozu.co.uk>Yozu</a></p>
 </header>`
 
 const Gallery = props => html`
