@@ -73,7 +73,7 @@ const Project = props => html`
 `
 const Articles = props => html`
 <main id="articles">
-  <div class="align-center"><h2 class="display-3 text-center gradient-text padding-horizontal no-margin">Some recent articles I wrote ...</h2></div>
+  <div class="align-center"><h2 class="display-3 text-center gradient-text padding-horizontal no-margin">Here are some articles I've written ...</h2></div>
   <ul class="articles">
     ${articles.map(article => html`<li><a href="${article.link}">${article.title}</a></li>`)}
   </ul>
